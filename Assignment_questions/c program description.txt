@@ -1,0 +1,4 @@
+##......description of the program written......##
+for asg 02
+a211:-   write a program to count the number of boys whose weight is less than 50kg and height is greater than 170cm. enter the data for 10 students.
+a212:- 	 write a progem to find the power series of e^(x);
