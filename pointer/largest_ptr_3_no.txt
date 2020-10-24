@@ -1,0 +1,19 @@
+/********WAP to find the greatest of three number using pointer****************/
+
+
+#include<stdio.h>
+main()
+{
+printf("Enter three numbers\n");
+int a,b,c,largest;
+scanf("%d",&a);
+scanf("%d",&b);
+scanf("%d",&c);
+int *ptr1,*ptr2,*ptr3;
+ptr1 = &a;
+ptr2 = &b;
+ptr3 = &c;
+if((*ptr1 >=*ptr2) && (*ptr1 >= *ptr3)){printf("\nLargest among %d, %d, %d is ::::%d",a,b,c,*ptr1);}
+else if ((*ptr2 >=*ptr1) && (*ptr2>=*ptr3)){printf("\nLargest among %d, %d, %d is ::::%d",a,b,c,*ptr2);}
+else {printf("\nLargest among %d, %d, %d is ::::%d",a,b,c,*ptr3);}
+}
