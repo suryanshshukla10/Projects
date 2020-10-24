@@ -1,0 +1,14 @@
+ex1.c :- factorial calculation
+ex2.c :- GDC using for loop and if statement
+ex3.c :- LCM
+ex4.c :- fibonacci sequence 1,1,2,3,5,8.....
+ex5.c :- reverse and integer
+ex6.c :- check palindrome -->53235<--
+ex7.c :- ...............
+ex8.c :- to count number of digita in an integer
+ex9.c :- to compute quotient and reaminder
+ex10.c :- to check whether a given number is prime or not
+ex11.c :- display factor of a number;
+ex12.c :- program to count vowel and consonents etc..
+ex13.c :- program to convert binary to decimal 
+ex14.c :- to check odd or even of a number
