@@ -101,4 +101,17 @@ for m = 1:lenDigital
 end
 
 
+AvgSS = mean(SS)
+AvgEI = mean(EI)
+AvgPTT = mean(PTT)
+AvgDigital= mean(DIGITAL)
+
+TotalAvgMatrix = [AvgSS, AvgEI, AvgPTT, AvgDigital];
+avgTotal = mean(TotalAvgMatrix)
+
+if AvgSS > avgTotal
+    disp("SS paper is tough")
+else 
+    disp("SS is easy")
+end
 
